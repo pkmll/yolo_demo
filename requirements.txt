@@ -1,0 +1,14 @@
+# 有nvidia gpu时，需要添加以下依赖
+# --extra-index-url https://download.pytorch.org/whl/cu130
+
+# 使用清华镜像源
+-i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
+
+ultralytics
+torch
+torchvision
+tqdm
+opencv-python
+yaml
+labelme
+labelme2yolo
