@@ -2,6 +2,9 @@
 
 > 轻量级目标检测算法，快速训练与推理
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](https://www.gnu.org/licenses/agpl-3.0.en.html)
+
 ---
 
 ## 简介
@@ -95,3 +98,11 @@ python train.py --data_path ./labelme_output/YOLODataset/dataset.yaml
 # 自动标注
 python dataset.py auto_label --model_path runs/detect/train/weights/best.pt --image_path ./images/
 ```
+
+---
+
+## 开源许可
+
+- **本项目**: [MIT License](LICENSE)
+- **第三方组件**: 详见 [CREDITS.md](CREDITS.md)
+- **Ultralytics YOLO**: [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.en.html)
